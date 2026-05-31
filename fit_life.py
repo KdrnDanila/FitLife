@@ -23,9 +23,10 @@ water_ml = user_weight * WATER_PER_KG
 water_l = water_ml / MILLILITRES_PER_LITRES
 
 # создаю переменную для упрощения кода
-user_info = f"{user_name.title()} {user_age} (года/лет)"
+user_info = f"{user_name.title()} {user_age}"
+
 # печатаем отчет
-print(f"Отчет для пользователя: {user_info}")
+print(f"Отчет для пользователя: {user_info} лет")
 print(f"Твой Индекс Массы Тела: {bmi:.1f}")
 print(f"Рекомендуемая норма воды: {water_l:.1f} л. в день")
 print("Расчет окончен. Будьте здоровы!")
