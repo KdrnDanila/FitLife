@@ -23,7 +23,7 @@ water_ml = user_weight * WATER_PER_KG
 water_l = water_ml / MILLILITRES_PER_LITRES
 
 # создаю переменную для упрощения кода
-user_info = f"{user_name.title()} {user_age}"
+user_info = f"{user_name} {user_age}"
 
 # печатаем отчет
 print(f"Отчет для пользователя: {user_info} лет")
