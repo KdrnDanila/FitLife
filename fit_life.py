@@ -22,9 +22,8 @@ water_ml = user_weight * WATER_PER_KG
 # переводим норму воды в литры
 water_l = water_ml / MILLILITRES_PER_LITRES
 
-#создаю переменную для упрощения кода
+# создаю переменную для упрощения кода
 user_info = f"{user_name.title()} {user_age} (года/лет)"
-
 # печатаем отчет
 print(f"Отчет для пользователя: {user_info}")
 print(f"Твой Индекс Массы Тела: {bmi:.1f}")
