@@ -4,10 +4,10 @@ MILLILITRES_PER_LITRES = 1000
 
 # собираем данные
 print("Здравствуйте! Укажите ваше имя:")
-user_name = input ()
-print("Приятно познакомиться,", user_name.title(),"!")
+user_name = input()
+print("Приятно познакомиться,", user_name.title(), "!")
 print("Укажите ваш возраст:")
-user_age = int(input ())
+user_age = int(input())
 print("Укажите ваш вес в килограммах (например, 70.5):")
 user_weight = float(input())
 print("Укажите ваш рост в метрах (например, 1.55):")
